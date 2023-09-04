@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   resources :books
   resources :stores
+
+  mount Authoree::Engine, at: "/users"
 end

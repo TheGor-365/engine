@@ -1,3 +1,9 @@
+PATH
+  remote: ../../engine/authoree
+  specs:
+    authoree (0.1.0)
+      rails (>= 7.0.7.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -231,6 +237,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  authoree!
   bootsnap
   capybara
   cssbundling-rails
